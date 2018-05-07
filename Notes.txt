@@ -1,0 +1,4 @@
+cd - current directory
+cd 'Desktop' - to chang directory to Desktop
+cd .. - to jump up a directory
+cls - to clear screen
