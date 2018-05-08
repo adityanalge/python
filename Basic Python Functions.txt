@@ -1,0 +1,8 @@
+.split()
+.isupper()
+.islower()
+.count()
+max()
+min()
+len()
+print in line - In Python 3, it's print(item, end=" ").

@@ -1,0 +1,13 @@
+Function
+
+def name_of_function(name = 'NAME'):
+	'''
+	DOCSTRING: Information about the function
+	INPUT: Takes name input...
+	OUTPUT: Says Hello with name ...
+	'''
+	print ('Hello' + name)
+
+we can use default parameter using equal.
+
+name_of_function()
