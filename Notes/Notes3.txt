@@ -1,0 +1,36 @@
+____________________________________________________________________________________________________________________________
+__name__ and __main__
+
+In python, __name__ is a built in variable. 
+So basically when a script is run, the built in variable __name__ in that script is assigned the string "__main__".
+
+We could use the following if statement - 
+
+if __name__ == "__main__":
+	myfunc()
+
+The above if statement would allow myfunc() to run only when the file is directly executed.
+
+____________________________________________________________________________________________________________________________
+Error and Exception Handling
+
+try - Block of code that is attempted and may or may not lead to an error
+except - Will execute in case there is an error in the try block
+finally - Final block of code to be executed regardless of an error
+
+while True:
+	try:
+		pass
+	except:
+		pass
+		continue
+	else:
+		pass
+		break
+	finally:
+		pass
+____________________________________________________________________________________________________________________________
+Pylint and Unittest
+
+pip install pylint
+pylint script.py -r y
