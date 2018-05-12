@@ -1,3 +1,5 @@
-from mymodule import *
+from MyMainPackage import somemainscript
+from MyMainPackage.SubPackage import mysubscript
 
-myfunc()
+somemainscript.report_main()
+mysubscript.sub_report()
