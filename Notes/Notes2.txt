@@ -1,0 +1,76 @@
+Object Oriented Programming
+
+Class names use camel case font
+
+class Sample():
+	pass
+
+my_sample = Sample()
+
+Here, my_sample is an 'INSTANCE' of Sample()
+
+type(my_sample) will be _main_.Sample
+
+This basically tells me that this instance of Sample is connected to my main keyword.
+
+____________________________________________________________________________________________________________________________
+def _init_ 
+
+def _init_ is called upon whenever we create an instance of the class. The self keywork connects this method to the instance of the class and then we pass in any attributed that we want our user to define.
+
+class Dog():
+
+	def _init_(self.breed):
+
+		self.breed = breed
+
+my_dog = Dog(breed = 'Lab') 
+
+my_dog.breed gives us 'Lab'
+
+____________________________________________________________________________________________________________________________
+Methods are basically functions that are inside a class.
+
+Attributed dont have paranthesis. Methods have paranthesis because they are exectued.
+
+Eg. my_dog.attribute
+    my_dog.method()
+
+____________________________________________________________________________________________________________________________
+Inheritance:
+
+class A():
+
+class B(A):
+    def __init__(self):
+        A.__init__(self)
+	print("Class A initalized when class B initialized")
+
+Class B Inherits Class A Here
+
+We can overwrite and add new methods in the base class.
+
+____________________________________________________________________________________________________________________________
+Polymorphism:
+
+Polymorphsim refers to the way in which different object classes share the same method name.
+
+Basically there are methods having same name in different classes. 
+You then create an instance of that class. 
+Based on which class' instance is being used, method from that class will be called.
+
+I feel like Polymorphism is minutely similar to inheritance.
+
+P.S. Polymorphism is Beautiful
+
+____________________________________________________________________________________________________________________________
+Abstract Classes:
+
+You never create an Instance of an Abstract Class. They are only designed to serve as a base class.
+
+
+
+
+
+
+
