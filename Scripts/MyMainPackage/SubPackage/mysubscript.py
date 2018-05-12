@@ -1,2 +1,2 @@
 def sub_report():
-	print ("HeY I am Function Inside Subscript")
+	print ("Hey I am Function Inside Subscript")
